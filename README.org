@@ -1,0 +1,29 @@
+** etuk-template
+
+A Leiningen template for creating simple automation with etuk
+
+*** Basic Usage
+
+#+BEGIN_SRC sh
+lein new etuk awesome-automate
+cd awesome-automate
+
+# If you using Leiningen
+lein deps
+
+# If you prefer Boot
+boot build
+boot
+#+END_SRC
+
+*** Links
+
+- [[https://github.com/agilecreativity/etuk][etuk]]
+- [[https://github.com/tmarble/webica][webica]]
+
+*** License
+
+Copyright © 2017 Burin Choomnuan
+
+Distributed under the Eclipse Public License either version 1.0 or (at
+your option) any later version.

@@ -1,0 +1,18 @@
+** Automate with the help of etuk
+*** If you are using boot for build try
+
+```sh
+# Run the boot build command
+boot build
+
+# Run example tasks
+boot download-selenium
+boot google-search
+```
+
+*** If you are using Leiningen try
+
+#+BEGIN_SRC
+## Run the google search from core.clj
+lein run
+#+END_SRC
